@@ -13,7 +13,6 @@ class SignOutController extends Controller
     public function __invoke(Request $request)
     {
         auth()->logout();
-
         return response()->json(['message' => 'Successfully logged out']);
     }
 }
