@@ -1,0 +1,9 @@
+name: Start Work
+on: workflow_dispatch
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Hello GM Actions!
+  
